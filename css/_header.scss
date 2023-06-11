@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 28px 15px 24px;
+    align-items: center;
+
+    h3{
+        display: flex;
+        color: $red;
+        font-size: 20px;
+        font-weight: 700;
+        align-items: center;
+
+        img{
+            width: 25px;
+        }
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    color: $black;
+                    font-size: 16px;
+                    font-weight: 700;
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            button{
+                font-size: 16px;
+                font-weight: 700;
+                padding: 11px 12px;
+                border-radius: 24px;
+                border: none; 
+            }
+            .login{
+                background-color: $red;
+                color: $white;
+            }
+            .singup{
+                margin-left: 16px;
+                background-color: $light-gray;
+            }    
+        }  
+    }
+   
+}
+
+
+
